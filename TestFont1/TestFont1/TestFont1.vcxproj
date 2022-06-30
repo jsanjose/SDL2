@@ -72,14 +72,14 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LibraryPath>C:\Temp\SDL2\lib\SDL2-2.0.22\lib\x64;C:\Temp\SDL2\lib\SDL2_ttf-2.0.18\lib\x64;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Temp\SDL2lib\SDL2-2.0.22\lib\x64;C:\Temp\SDL2lib\SDL2_ttf-2.0.18\lib\x64;$(LibraryPath)</LibraryPath>
     <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
-    <IncludePath>C:\Temp\SDL2\lib\SDL2-2.0.22\include;C:\Temp\SDL2\lib\SDL2_ttf-2.0.18\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Temp\SDL2lib\SDL2-2.0.22\include;C:\Temp\SDL2lib\SDL2_ttf-2.0.18\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LibraryPath>C:\Temp\SDL2\lib\SDL2-2.0.22\lib\x64;C:\Temp\SDL2\lib\SDL2_ttf-2.0.18\lib\x64;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Temp\SDL2lib\SDL2-2.0.22\lib\x64;C:\Temp\SDL2lib\SDL2_ttf-2.0.18\lib\x64;$(LibraryPath)</LibraryPath>
     <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
-    <IncludePath>C:\Temp\SDL2\lib\SDL2-2.0.22\include;C:\Temp\SDL2\lib\SDL2_ttf-2.0.18\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Temp\SDL2lib\SDL2-2.0.22\include;C:\Temp\SDL2lib\SDL2_ttf-2.0.18\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
