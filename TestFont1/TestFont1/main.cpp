@@ -54,7 +54,7 @@ public:
 	// Carga un fichero de tipo de letra, con un tamaño dado.
 	// Devuelve el 'fontId'
 	int loadFont(string fontFileName, int fontSize) {
-		if (!fontPath.empty()) {
+		if (!fontFileName.empty()) {
 			TTF_Font *fnt = TTF_OpenFont((fontPath + fontFileName).c_str(), fontSize);
 			if (fnt != nullptr) {
 				fonts.push_back(fnt);
