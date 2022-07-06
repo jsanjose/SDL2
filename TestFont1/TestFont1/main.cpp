@@ -1,21 +1,11 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <crtdbg.h>
 #include <SDL.h>
 #include <SDL_ttf.h>
 using namespace std;
 
 class EngineSDL {
-private:
-	int width, height;
-	SDL_Renderer* renderer = nullptr;
-	SDL_Window* window = nullptr;
-	bool fullScreen = false;
-	string fontPath;
-	vector<TTF_Font*> fonts;
-	int selectedFont = -1;
-
 public:
 	EngineSDL(int window_width, int window_height, string window_title) : width(window_width), height(window_height)  {
 		SDL_Init(SDL_INIT_VIDEO);
@@ -111,6 +101,15 @@ public:
 		}
 		else return textY;
 	}
+
+private:
+	int width, height;
+	SDL_Renderer* renderer = nullptr;
+	SDL_Window* window = nullptr;
+	bool fullScreen = false;
+	string fontPath;
+	vector<TTF_Font*> fonts;
+	int selectedFont = -1;
 };
 
 
