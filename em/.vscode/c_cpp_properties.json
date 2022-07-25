@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "emscripten",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/emsdk/upstream/emscripten/cache/sysroot/include/**",
+                "C:/emsdk/upstream/lib/clang/15.0.0/include/**"
+            ],
+            "defines": [],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/emsdk/upstream/emscripten/emcc.bat",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
